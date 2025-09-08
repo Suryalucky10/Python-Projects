@@ -4,7 +4,7 @@ stages {
   stage('checkout') {
     steps {
       git branch: 'main',
-      credentialId: 'github-pat',
+      credentialsId: 'hello',
       url: 'https://github.com/Suryalucky10/Python-Projects.git'
 }
 }
